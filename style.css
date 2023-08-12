@@ -11,11 +11,19 @@ body {
   background-color: antiquewhite;
 }
 
+h1 {
+  background: linear-gradient(to right, rgb(240, 235, 226),rgb(224, 129, 65));
+  -webkit-background-clip: text;
+  color: transparent;
+  text-align: center;
+  margin-top: 30px;
+}
+
 .container {
   max-width: 1200px;
   width: 100%;
   /* background-color: aquamarine; */
-  margin: 50px auto;
+  margin: 30px auto;
   padding: 20px;
 }
 
